@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+categories: [tech_blog, ai]
+tags: [kafka, spark, scala, python, llm, agent] 
 ---
 
 # Welcome
