@@ -5,7 +5,7 @@ description: >-
 date: 2026-06-06T18:58:58-04:00
 author: Hu Zhao
 categories: [System Architecture, Data Engineering, Artificial Intelligence]
-tags: [LLM Agent, Apache Kafka, Apache Spark, Event-Driven Architecture, ADK, Data Pipeline]
+tags: [llm agent, kafka, spark, event-driven architecture, adk, data pipeline]
 pin: true
 ---
 
