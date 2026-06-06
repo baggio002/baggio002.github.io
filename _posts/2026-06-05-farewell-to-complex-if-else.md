@@ -1,9 +1,9 @@
 ---
-title: Farewell to Complex If-Else: Leveraging Agents for Business Data Processing
+title: Farewell to Complex If-Else - Leveraging Agents for Business Data Processing
 description: >-
     Explore how to seamlessly integrate an LLM Agent into enterprise business logic. 
     This post demonstrates building an event-driven streaming pipeline using Kafka, Spark, and MySQL to asynchronously process and categorize real-time data using AI.
-date: 2026-06-06T18:58:58-04:00
+date: 2026-06-06 18:58:58 -0400
 author: Hu Zhao
 categories: [System Architecture, Data Engineering, Artificial Intelligence]
 tags: [llm agent, kafka, spark, event-driven architecture, adk, data pipeline]
