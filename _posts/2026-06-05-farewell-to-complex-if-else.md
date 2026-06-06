@@ -5,6 +5,7 @@ date: 2026-06-06T18:58:58-04:00
 author: Hu Zhao
 categories: [System Architecture, Data Engineering, Artificial Intelligence]
 tags: [LLM Agent, Apache Kafka, Apache Spark, Event-Driven Architecture, ADK, Data Pipeline]
+pin: true
 ---
 
 # Farewell to Complex If-Else: Leveraging Agents for Business Data Processing 
