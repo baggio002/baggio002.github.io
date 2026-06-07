@@ -40,7 +40,9 @@ I chose the News API as the data source. News API is a straightforward HTTP REST
 
 Although this data source naturally provides batch data, I am using it to mock a real-time messaging scenario. The process is simple: fetch the data and then split it into multiple messages representing single news items. In this instance, I just used a small batch of data for presentation purposes. 
 
-The source code is available here: [https://github.com/baggio002/news_api_subscriber](https://github.com/baggio002/news_api_subscriber). The `news-publisher.py` script is used to fetch data and publish the messages to the message queue. 
+The source code is available here: [https://github.com/baggio002/news_api_subscriber](https://github.com/baggio002/news_api_subscriber). 
+
+The `news-publisher.py` script is used to fetch data and publish the messages to the message queue. 
 
 BTW, even we query news with key words "soccer", "football" and "足球", we can see the data is actually including lots of news unrelated to "soccer"
 
@@ -50,7 +52,9 @@ BTW, even we query news with key words "soccer", "football" and "足球", we can
 
 I use Kafka as the Message Queue service. Since Kafka is the most popular message queue in the world, it does not require a detailed introduction here. In the future, I plan to post some of my Kafka study notes on this blog. 
 
-Please refer to the official documentation for setup: [https://kafka.apache.org/quickstart/](https://kafka.apache.org/quickstart/) In my practice, the easiest way to deploy Kafka is by using the JVM-based Docker image: [https://kafka.apache.org/quickstart/#using-jvm-based-apache-kafka-docker-image](https://kafka.apache.org/quickstart/#using-jvm-based-apache-kafka-docker-image) 
+Please refer to the official documentation for setup: [https://kafka.apache.org/quickstart/](https://kafka.apache.org/quickstart/) 
+
+In my practice, the easiest way to deploy Kafka is by using the JVM-based Docker image: [https://kafka.apache.org/quickstart/#using-jvm-based-apache-kafka-docker-image](https://kafka.apache.org/quickstart/#using-jvm-based-apache-kafka-docker-image) 
 
 In this architecture, Kafka manages a topic named “newsapi.topic”. The `news-publisher.py` script will publish news items directly into this topic. 
 
