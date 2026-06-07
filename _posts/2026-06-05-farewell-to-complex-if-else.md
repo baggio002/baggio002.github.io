@@ -5,7 +5,7 @@ description: >-
     This post demonstrates building an event-driven streaming pipeline using Kafka, Spark, and MySQL to asynchronously process and categorize real-time data using AI.
 date: 2026-06-06 18:58:58 -0400
 author: Hu Zhao
-categories: [System Architecture, Data Engineering, Artificial Intelligence]
+categories: [Data&AIML]
 tags: [llm agent, kafka, spark, event-driven architecture, adk, data pipeline]
 pin: true
 ---
