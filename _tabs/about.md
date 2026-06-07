@@ -31,4 +31,4 @@ I hold a Master of Engineering from Nanjing University. While my career has been
 ## ⚽ Beyond the Code
 When I'm not untangling complex logic or planning stateless architectures, I am a massive football fan—whether that means enjoying the beautiful game in the real world or managing the pitch virtually in EA Sports FC. You can also find me reading classic Chinese Wuxia literature or exploring the beautiful hiking trails across Quebec's national parks.
 
-Feel free to reach out, connect, or leave a comment on my posts(via Linkedin: https://www.linkedin.com/in/hu-zhao-54b770165/). I'm always open to discussing tech, sharing ideas, or exploring new collaborations!
+Feel free to reach out, connect, or leave a comment on my posts(<span style="color:blue">[via Linkedin](https://www.linkedin.com/in/hu-zhao-54b770165/)</span>). I'm always open to discussing tech, sharing ideas, or exploring new collaborations!
