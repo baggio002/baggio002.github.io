@@ -62,7 +62,9 @@ In this architecture, Kafka manages a topic named “newsapi.topic”. The `news
 
 Currently, the messages are sitting in the queue, meaning we need a subscriber to consume them and handle the data. Since I want to simulate a real-time system, I created a streaming pipeline. I chose Spark as the pipeline component; it subscribes to the Kafka message queue, processes the data, and saves it into a dataset. 
 
-The source code (Scala) is here: [https://github.com/baggio002/kafka-spark-pipeline](https://github.com/baggio002/kafka-spark-pipeline) To study and use Spark, refer to: [https://spark.apache.org/](https://spark.apache.org/) 
+The source code (Scala) is here: [https://github.com/baggio002/kafka-spark-pipeline](https://github.com/baggio002/kafka-spark-pipeline) 
+
+To study and use Spark, refer to: [https://spark.apache.org/](https://spark.apache.org/) 
 
 **Tips:** If you are interested in practicing with Spark, the official guide is a great starting point. However, I want to share a specific issue that blocked me for several hours. 
 
