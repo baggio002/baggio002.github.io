@@ -127,3 +127,12 @@ My primary goal was to validate my hypothesis regarding enterprise agent applica
 
 I welcome any valuable feedback to help me build a better blog. 
 
+### source code list
+[News API script](https://github.com/baggio002/news_api_subscriber)
+[Spark Streaming Pipeline](https://github.com/baggio002/kafka-spark-pipeline)
+[Worker Agent](https://github.com/baggio002/llm_agent)
+
+
+
+
+
