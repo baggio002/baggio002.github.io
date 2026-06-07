@@ -74,7 +74,7 @@ Also, ensure that in the package declaration above, “2.13” matches your Scal
 
 ### Dataset
 
-Imagine if this were a production real-time data system: every second, hundreds of messages would need to be handled and saved for data analysts. In that scenario, utilizing a data warehouse (like BigQuery) or a storage bucket (like GCS) would be the correct architectural choice. However, I did not want to mock massive data throughput or use BigQuery, as doing so would incur significant cloud costs. 
+Imagine if this were a production real-time data system: every second, hundreds of messages would need to be handled and saved for data analysts. In that scenario, utilizing a data warehouse (like BigQuery) would be the correct architectural choice. However, I did not want to mock massive data throughput or use BigQuery, as doing so would incur significant cloud costs. 
 
 Therefore, for this demonstration, I simply used a local MySQL database to store thousands of messages.  The schema from the News API is as follows:
 
