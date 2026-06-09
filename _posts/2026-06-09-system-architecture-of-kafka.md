@@ -1,5 +1,5 @@
 ---
-title: System Architecture of Kafka - 1
+title: System Architecture of Kafka
 date: 2026-06-09T16:58:58-04:00
 author: Hu Zhao
 description: >-
