@@ -9,8 +9,6 @@ tags: [kafka, architecture, message queue]
 pin: true
 ---
 
-Kafka is often considered the most popular Message Queue in the world. Instead of copy-pasting the official guide from apache.org or generating a generic AI response, my goal here is to explain it in the simplest way possible for complete beginners.
-
 ## What is a Message Queue?
 
 At its core, a message queue is a software component that allows different parts of a system to communicate asynchronously by sending and temporarily holding messages. It acts as an intermediate buffer, decoupling the senders from the receivers. This means neither side has to wait for the other to process data immediately.
