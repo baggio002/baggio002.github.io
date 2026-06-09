@@ -1,6 +1,6 @@
 ---
 title: System Architecture of Kafka
-date: 2026-06-09T16:58:58-04:00
+date: 2026-06-09T16:45:58-04:00
 author: Hu Zhao
 description: >-
     Kafka is often considered the most popular Message Queue in the world. Instead of copy-pasting the official guide from apache.org or generating a generic AI response, my goal here is to explain it in the simplest way possible for complete beginners."
