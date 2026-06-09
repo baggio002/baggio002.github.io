@@ -6,6 +6,7 @@ description: >-
     Kafka is often considered the most popular Message Queue in the world. Instead of copy-pasting the official guide from apache.org or generating a generic AI response, my goal here is to explain it in the simplest way possible for complete beginners."
 categories: [Data&AIML, Big Data]
 tags: [kafka, architecture, message queue]
+pin: true
 ---
 
 Kafka is often considered the most popular Message Queue in the world. Instead of copy-pasting the official guide from apache.org or generating a generic AI response, my goal here is to explain it in the simplest way possible for complete beginners.
