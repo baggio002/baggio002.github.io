@@ -87,7 +87,7 @@ Moreover, in Kafka, we call the working partition as “Leader” and replicas/b
 
 To truly understand the power of Kafka, let's stress-test our architecture. Imagine a worst-case scenario where multiple system failures occur simultaneously. Here is how the Kafka ecosystem automatically heals itself:
 
-![kafka architecture12](./assets/posts/system-architecutre-of-kafka/kafka_architecture2.jpg)
+![kafka architecture2](./assets/posts/system-architecutre-of-kafka/kafka_architecture2.jpg)
 [open in excalidraw](https://excalidraw.com/#json=YtRopcvhGy1nhyQLX9XVQ,ObwVo9ZmQO7qP7sE9UELsw)
 
 ### Scenario 1
