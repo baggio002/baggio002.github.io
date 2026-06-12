@@ -119,7 +119,7 @@ While database clustering and horizontal scaling (like sharding or adding read r
 
 Writes are Harder than Reads: Horizontal scaling easily solves high concurrent reads, but handling tens of thousands of concurrent writes (like creating new orders) in a relational database introduces massive complexities, such as distributed transactions and lock contention. If it happens, the system lock will cause the entire database unavailable.
 
-Tight Coupling: Even if your database survives, your application layer is still tightly coupled. If the backend order-processing logic takes too long, the user's web request will simply time out.
+The High Cost of Distributed Indexes: Crucially, if you shard a table across multiple machines, the database indexes are also distributed. During a massive spike in inserts, these indexes must be constantly recalculated, and data may even need to be dynamically redistributed across the network. This index maintenance consumes enormous CPU and I/O resources, which can quickly exhaust the cluster. 
 
 This is exactly where Kafka shines. By introducing a Distributed Event Streaming Platform, we transform a synchronous, heavy-duty transaction into an asynchronous, lightweight message. We protect our expensive databases, decouple our services, and ensure that our ecosystem remains highly available (Availability) and partition-tolerant (Partition Tolerance)—gracefully handling whatever disaster or traffic spike comes its way.
 
